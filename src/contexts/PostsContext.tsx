@@ -15,8 +15,8 @@ interface PostsProviderProps {
 export const PostsContext = createContext({} as PostsContextType);
 
 export function PostsProvider({ children }: PostsProviderProps) {
-  const username = "Jtomio";
-  const repo = "ignite-github-blog";
+  const username = "Jtomio"; 
+  const repo = "github-blog";
 
   const [posts, setPosts] = useState<PostType[]>([]);
 
